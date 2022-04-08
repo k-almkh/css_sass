@@ -13,17 +13,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <section class="home">
+    <section class="home" id="id_home">
         <nav>
             <h2>Meine Webseite</h2>
-            <ul>    
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact me</a></li>
+            <ul id="actions">    
+                <li><a href="#id_home">Home</a></li>
+                <li><a href="#id_about">About me</a></li>
+                <li><a href="#id_services">Services</a></li>
+                <li><a href="#id_skills">Skills</a></li>
+                <li><a href="#id_contact">Contact me</a></li>
             </ul>
-            <a href="#" class="btn">Subscrbe</a>
+            <a href="#" class="btn">Subscribe</a>
+            <button id="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
         <div class="content">
             <div class="container-text">
@@ -46,7 +51,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="id_about">
         <div class="container-images">
             <img src="imgs/Programming-pana2.png" alt="">
         </div>
@@ -57,7 +62,8 @@
         </div>
     </section>
 
-    <section class="services">
+  
+    <section class="services" id="id_services">
         <h1 class="text-center">Our <span>Services</span></h1>
         <div class="box">
             <div class="card">
@@ -84,26 +90,34 @@
         </div>
     </section>
 
-    <section class="skills">
+    <section class="skills" id="id_skills">
         <div class="container-skills">
             <h1><span>My</span>Skills </h1>
             <div class="content-skills">
+                <div class="skill"><img src="imgs/php_plain_logo_icon_146397.png" alt=""></div>
                 <div class="skill"><img src="imgs/symfony_logo.png" alt=""></div>
-                <div class="skill"><img src="imgs/bootstrap_plain_wordmark_logo_icon_146620.png" alt=""></div>
-                <div class="skill"><img src="imgs/apache_logo.png" alt=""></div>
+                <div class="skill"><img src="imgs/composer_logo.png" alt=""></div>
+                <div class="skill"><img src="imgs/docker_logo.png" alt=""></div>
+                
+
                 <div class="skill"><img src="imgs/csharp_plain_logo_icon_146577.png" alt=""></div>
+                <div class="skill"><img src="imgs/dot_net_plain_wordmark_logo_icon_146545.png" alt=""></div>
+               
+                <div class="skill"><img src="imgs/apache_logo.png" alt=""></div>
+                
+                <div class="skill"><img src="imgs/javascript_original_logo_icon_146455.png" alt=""></div>
+                <div class="skill"><img src="imgs/jquery_plain_wordmark_logo_icon_146445.png" alt=""></div>
                 <div class="skill"><img src="imgs/css_logo_light.png" alt=""></div>
                 <div class="skill"><img src="imgs/html_logo_light.png" alt=""></div>
-                <div class="skill"><img src="imgs/composer_logo.png" alt=""></div>
-                <div class="skill"><img src="imgs/php_plain_logo_icon_146397.png" alt=""></div>
-                <div class="skill"><img src="imgs/dbs-postgresql_icon-icons.com_50907.png" alt=""></div>
-                <div class="skill"><img src="imgs/docker_logo.png" alt=""></div>
-                <div class="skill"><img src="imgs/javascript_logo_icon_181330.png" alt=""></div>
-                <div class="skill"><img src="imgs/dot_net_plain_wordmark_logo_icon_146545.png" alt=""></div>
+                <div class="skill"><img src="imgs/bootstrap_plain_wordmark_logo_icon_146620.png" alt=""></div>
+                
+               
+                <div class="skill"><img src="imgs/postgresql_logo.png" alt=""></div>
+                <div class="skill"><img src="imgs/mysql_logo1.png" alt=""></div>
+
                 <div class="skill"><img src="imgs/git_original_wordmark_logo_icon_146510.png" alt=""></div>
                 <div class="skill"><img src="imgs/github_original_wordmark_logo_icon_146506.png" alt=""></div>
-                <div class="skill"><img src="imgs/jquery_plain_wordmark_logo_icon_146445.png" alt=""></div>
-                <div class="skill"><img src="imgs/mysql_logo.png" alt=""></div>
+                
 
 
 
@@ -114,7 +128,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer id="id_contact">
         <div class="content-footer">
             <h2>Khaled <Span>Almkheter</Span></h2>
             <p>
@@ -124,6 +138,8 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eos neque quis ut animi rerum nesciunt error corporis voluptate similique dicta autem obcaecati, qui in repudiandae doloremque ipsam dolor deleniti!
             </p>
         </div>
-    </footer>
+    </footer> 
+
+    <script src="js/app.js"></script>
 </body>
 </html>

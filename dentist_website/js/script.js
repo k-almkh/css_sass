@@ -1,6 +1,8 @@
 let menu = document.querySelector('#menu-btn');
-let navbar = document.querySelector('.header .nav');
+let navbar = document.querySelector('.header .mynav');
 let header = document.querySelector('.header');
+
+let topBtn = document.querySelector('#myTopBtn');
 
 menu.onclick = () =>{
    menu.classList.toggle('fa-times');
@@ -17,4 +19,14 @@ window.onscroll = () =>{
      header.classList.remove('active');
   }
 
+   if(window.scrollY > 20){
+      topBtn.style.display = "block";
+   }else{
+      topBtn.style.display = "none";
+   }
+
+}
+topBtn.onclick = () =>{
+   document.body.scrollTop = 0;
+   document.documentElement.scrollTop = 0;
 }

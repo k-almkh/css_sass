@@ -2,7 +2,8 @@
 
 :root{
    /* --blue:#00b8b8; */
-   --blue:#993366;
+   /* --blue:#6FC846; */
+   --blue:#21b7eb;
    --black:#333;
    --white:#fff;
    --light-color:#666;
@@ -17,7 +18,7 @@
    box-sizing: border-box;
    outline: none; border:none;
    text-decoration: none !important;
-   text-transform: capitalize;
+   /* text-transform: capitalize; */
 }
 
 *::-webkit-scrollbar{
@@ -39,7 +40,9 @@ html{
    scroll-behavior: smooth;
    scroll-padding-top: 6.5rem;
 }
-
+a{
+   color: var(--blue);
+}
 section{
    padding:7rem 2rem;
 }
@@ -70,7 +73,7 @@ section{
 
 .header{
    /* padding:2rem; */
-   /* border-bottom: var(--border); */
+   border-bottom: var(--border);
 }
 
 .header.active{
@@ -88,13 +91,13 @@ section{
    color:var(--blue);
 }
 
-.header .nav a{
+.header .mynav a{
    margin:0 1rem;
    font-size: 1.7rem;
    color:var(--black);
 }
 
-.header .nav a:hover{
+.header .mynav a:hover{
    color:var(--blue);
 }
 
@@ -104,6 +107,24 @@ section{
    cursor: pointer;
    display: none;
 }
+#myTopBtn{
+   display: none;
+   position: fixed;
+   bottom: 20px;
+   right: 30px;
+   z-index: 99;
+   font-size: 18px;
+   border: none;
+   outline: none;
+   background-color: var(--blue);
+   color: var(--white);
+   cursor: pointer;
+   padding: 15px;
+   border-radius: 4px;
+}
+#myTopBtn:hover {
+   background-color: var(--black);
+ }
 
 .home{
    /* background:url(../images/home-bg.jpg) no-repeat;;
@@ -379,6 +400,53 @@ section{
 }
 
 
+.impressum .row{
+   min-height: 50vh;
+}
+
+.impressum .content span{
+   font-size: 2rem;
+   color:var(--blue);
+}
+
+.impressum .content h3{
+   font-size: 3rem;
+   color:var(--black);
+   margin-top: 1rem;
+}
+
+.impressum .content p{
+   padding:1rem 0;
+   font-size: 1.4rem;
+   color:var(--light-color);
+   line-height: 2;
+}
+
+.datenschutz .row{
+   min-height: 50vh;
+}
+
+.datenschutz .content span{
+   font-size: 2rem;
+   color:var(--blue);
+}
+
+.datenschutz .content h3{
+   font-size: 3rem;
+   color:var(--black);
+   margin-top: 1rem;
+}
+
+.datenschutz .content p{
+   padding:1rem 0;
+   font-size: 1.4rem;
+   color:var(--light-color);
+   line-height: 2;
+}
+
+.active_hide{
+   display: none;
+}
 
 
 
@@ -417,7 +485,7 @@ section{
       transform: rotate(180deg);
    }
 
-   .header .nav{
+   .header .mynav{
       position: absolute;
       top:99%; left:0; right:0;
       background-color: var(--white);
@@ -430,11 +498,11 @@ section{
       transition: .2s linear;
    }
 
-   .header .nav.active{
+   .header .mynav.active{
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
    }
  
-   .header .nav a{
+   .header .mynav a{
       margin:1rem 0;
       font-size: 2rem;
    }

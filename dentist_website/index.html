@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +7,14 @@
    <title>Kinder Zahnarzt</title>
 
    <!-- font awesome cdn link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+   <!-- <link rel="stylesheet" href="css/all.min.css"> -->
 
    <!-- bootstrap cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+   <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.min.css" /> -->
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
@@ -29,7 +33,7 @@
          <!-- <a href="#home" class="logo"><img src="/images/logo.png" alt="" height="160">Kinder<span>Zahnarzt.</span></a> -->
          <a href="#home" class="logo"><img src="/images/logo.png" alt="" height="150"></span></a>
 
-         <nav class="nav">
+         <nav class="mynav">
             <a class="active_a" href="#home">Startseite</a>
             <a href="#about">Über uns</a>
             <a href="#services">Services</a>
@@ -40,6 +44,7 @@
          <!-- <a href="#contact" class="link-btn">make appointment</a> -->
 
          <div id="menu-btn" class="fas fa-bars"></div>
+         <a id="myTopBtn" title="Nach Oben"><i class="fas fa-arrow-up"></i></a>
 
       </div>
 
@@ -71,7 +76,7 @@
 
 <!-- about section starts  -->
 
-<section class="about" id="about">
+<section class="about " id="about">
 
    <div class="container">
 
@@ -100,7 +105,7 @@
 
 <!-- services section starts  -->
 
-<section class="services" id="services">
+<section class="services " id="services">
 
    <h1 class="heading">our services</h1>
 
@@ -150,7 +155,7 @@
 
 <!-- process section starts  -->
 
-<section class="process">
+<section class="process ">
 
    <h1 class="heading">Arbeitprozess</h1>
 
@@ -182,7 +187,7 @@
 
 <!-- reviews section starts  -->
 
-<section class="reviews" id="reviews">
+<section class="reviews " id="reviews">
 
    <h1 class="heading"> Ansprechpartner </h1>
 
@@ -190,7 +195,7 @@
 
       <div class="box">
          <img src="images/pic-1.png" alt="">
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+         <p>Schwerpunkt Kinder und Jugendzahnheilkunde</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -198,13 +203,13 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
-         <span>satisfied client</span>
+         <h3>M.Sc. Abderrahmane Basta</h3>
+         <span>Zahnarzt</span>
       </div>
 
       <div class="box">
          <img src="images/pic-2.png" alt="">
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+         <p>Schwerpunkt Kinder und Jugendzahnheilkunde</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -212,13 +217,13 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
-         <span>satisfied client</span>
+         <h3>Sabine Bertzbach</h3>
+         <span>angestellte Zahnärztin</span>
       </div>
 
       <div class="box">
          <img src="images/pic-3.png" alt="">
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+         <p>Schwerpunkt Kinder und Jugendzahnheilkunde</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -226,8 +231,8 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
-         <span>satisfied client</span>
+         <h3>Dr. Aline Millé</h3>
+         <span>angestellte Zahnärztin</span>
       </div>
 
    </div>
@@ -238,7 +243,7 @@
 
 <!-- contact section starts  -->
 
-<section class="contact" id="contact">
+<section class="contact " id="contact">
 
    <h1 class="heading">Kontakt Informationen</h1>
 
@@ -307,6 +312,7 @@
 
 <!-- contact section ends -->
 
+
 <!-- footer section starts  -->
 
 <section class="footer">
@@ -340,22 +346,14 @@
 
    </div>
 
-   <div class="credit"> &copy; copyright 2022 by <span>Dr.Florian Bertzbach </span>  </div>
+   <div class="credit"> &copy; copyright 2022 by <span>Dr.Florian Bertzbach </span> | <a href="./impressum.html" id="btn_impressum" target="_blank">Impressum</a> | <a href="./datenschutz.html" id="btn_datenschutz" target="_blank">Datenschutz</a></div>
 
 </section>
 
 <!-- footer section ends -->
 
-
-
-
-
-
-
-
-
-
 <!-- custom js file link  -->
+<!-- <script src="js/bootstrap.bundle.js"></script> -->
 <script src="js/script.js"></script>
 
 </body>

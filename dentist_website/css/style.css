@@ -263,7 +263,7 @@ section{
   
   .wrapper .accordion_wrap .accordion_header:hover:before,
   .wrapper .accordion_wrap .accordion_header:hover:after{
-    background: var(--green);
+    background: var(--light-color);
   }
   
   .wrapper .accordion_wrap .accordion_header:after{
@@ -289,6 +289,11 @@ section{
    font-size: 15px;
    color: var(--black);
    }
+   .wrapper .accordion_wrap .accordion_body h3{
+      padding: 5px;
+      color: var(--black);
+   }
+    
  
   
   .wrapper .accordion_wrap .accordion_header.accordion_active{

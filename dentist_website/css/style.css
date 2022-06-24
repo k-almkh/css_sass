@@ -153,6 +153,9 @@ section{
    padding:1rem 0;
 }
 
+.about{
+   background-color: var(--light-bg);
+}
 .about .row{
    min-height: 50vh;
 }
@@ -409,7 +412,7 @@ section{
 }
 
 .karriere {
-   background-color: var(--light-bg);
+   /* background-color: var(--light-bg); */
 }
 
 .karriere .content span{
@@ -636,14 +639,15 @@ section{
    }
  
    .header .mynav a{
-      margin:1rem 0;
+      /* margin:1rem 0; */
       font-size: 2rem;
    }
 
    .home{
       background-position: left;
+      background:none;
    }
-
+   
    .home .content{
       width: auto;
    }

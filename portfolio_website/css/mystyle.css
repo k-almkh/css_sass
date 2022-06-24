@@ -683,3 +683,12 @@ h3.my-profession{
         max-width: 100%;
     }
 }
+@media (max-width:667px){
+  .aside{
+    width: 100%;
+    left: -100%;
+  }
+}
+.nav-active{
+    left: auto;
+}

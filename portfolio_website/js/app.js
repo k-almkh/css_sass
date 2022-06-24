@@ -6,17 +6,18 @@ var typed= new Typed(".typing",{
     loop:true
 });
 
-// const menu = document.querySelector(".nav-toggler");
-// const nav = document.querySelector(".nav");
-// console.log(nav);
-// menu.addEventListener('click',()=>{
-//     handelMenu();
-// });
+const btn_menu = document.querySelector(".nav-toggler");
+const nav_aside = document.querySelector(".aside");
 
-// function handelMenu() {
-//     menu.classList.toggle('active');
-//     nav.classList.toggle('active');
-// }
+btn_menu.addEventListener('click',()=>{
+    handelMenu();
+});
+
+function handelMenu() {
+    // btn_menu.classList.toggle('active');
+    nav_aside.classList.toggle('nav-active');
+    
+}
 
 
 /* ===== Active Tabs ==== */
@@ -28,5 +29,6 @@ for (var i = 0; i < nav1.length; i++) {
       current[0].className = current[0].className.replace("active", "");
     }
     this.className += " active";
+    btn_menu.click();
     });
   }

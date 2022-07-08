@@ -14,9 +14,7 @@ btn_menu.addEventListener('click',()=>{
 });
 
 function handelMenu() {
-    // btn_menu.classList.toggle('active');
     nav_aside.classList.toggle('nav-active');
-    
 }
 
 

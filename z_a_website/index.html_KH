@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Kinder Zahnarzt</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+   <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+
+   <!-- bootstrap cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+   <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.min.css" /> -->
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Animated Accordion -->
+   <link rel="stylesheet" href="css/accordion_style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header fixed-top">
+
+   <div class="container">
+
+      <div class="row align-items-center justify-content-between">
+         
+         <!-- <a href="#home" class="logo"><img src="/images/logo.png" alt="" height="160">Kinder<span>Zahnarzt.</span></a> -->
+         <a href="#home" class="logo"><img src="/images/logo.png" alt="" height="150"></span></a>
+
+         <nav class="mynav">
+            <a class="active_a" href="#home">Startseite</a>
+            <a href="#services">Leistungen</a>
+            <a href="#process">Arbeitprozess</a>
+            <a href="./karriere.html">Karriere</a>
+            <a href="#about">Über uns</a>
+            <!-- <a href="#reviews">Ansprechpartner</a> -->
+            <a href="#contact">Kontakt</a>
+         </nav>
+
+         <!-- <a href="#contact" class="link-btn">make appointment</a> -->
+
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <a id="myTopBtn" title="Nach Oben"><i class="fas fa-arrow-up"></i></a>
+
+      </div>
+
+   </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="container">
+
+      <div class="row min-vh-100 align-items-center">
+         <div class="content text-center text-md-left">
+
+            <h3>FRÖHLICHE BEHANDLUNG FÜR GESUNDE ZÄHNE </h3>
+            <p>Gesunde Zähne gesund erhalten und erkrankte Zähne heilen ist unser Ziel. Denn ein gesunder Mund bedeutet Lebensqualität.</p>
+            <p>Unser Team kümmert sich liebevoll und kompetent um Ihr Kind, so dass es entspannt  und mit Freude zum Zahnarzt geht.</p>
+             <a href="#contact" class="link-btn">Rufen Sie uns an</a>
+
+            <!-- <h3>Lassen Sie uns Ihr Lächeln aufhellen</h3>
+            <p>Unsere Kinderzahnarztpraxis ist eine Praxis, in die Kinder und Eltern gerne kommen und sich wohlfühlen. Unser Fokus liegt auf dem Wohlbefinden Ihres Kindes. Dies ist unser Ansporn, Tag für Tag.</p>
+            <a href="#contact" class="link-btn">Rufen Sie uns an</a> -->
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- services section starts  -->
+
+<section class="services " id="services">
+
+   <!-- <h1 class="heading">Leistungen</h1>
+
+    <div class="box-container container">
+
+      <div class="box">
+         <img src="images/icon-1.png" alt="">
+         <h3>Service 1</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, non?</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-2.png" alt="">
+         <h3>Service 2</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, non?</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-3.png" alt="">
+         <h3>Service 3</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-4.png" alt="">
+         <h3>Service 4</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-5.png" alt="">
+         <h3>Service 5</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-6.png" alt="">
+         <h3>Service 6</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+      </div>
+
+   </div>
+   <br> -->
+   
+
+   <div class="wrapper">
+      <h1 class="heading">Leistungen</h1>
+      <img src="images/about-img.png" class="w-100 mb-5 mb-md-0" alt="">
+      <div class="box-container">
+         <!-- <div class="row align-items-center"> -->
+
+            <!-- <div class="col-md-6 image">
+               <img src="images/about-img.png" class="w-100 mb-5 mb-md-0" alt="">
+            </div>
+    -->
+            <!-- <div class="col-md-6 content">
+               <h3>Unsere zahnärztlichen Leistungen für Kinder und Jugendliche</h3>
+               <p> Die Erfahrungen der letzten Jahre haben gezeigt, dass Kinder keine kleinen Erwachsene sind, und man auch in der Zahnheilkunde auf die speziellen Bedürfnisse und Anforderungen von Kindern eingehen muss. Darüber hinaus unterscheiden sich Milchzähne vom Aufbau und der Struktur gegenüber bleibenden Zähnen und müssen demnach anderes therapiert werden.</p>   
+            </div> -->
+   
+         <!-- </div> -->
+         <div class="box">
+            <h3>Unsere zahnärztlichen Leistungen für Kinder und Jugendliche</h3>
+            <p> Die Erfahrungen der letzten Jahre haben gezeigt, dass Kinder keine kleinen Erwachsene sind, und man auch in der Zahnheilkunde auf die speziellen Bedürfnisse und Anforderungen von Kindern eingehen muss. Darüber hinaus unterscheiden sich Milchzähne vom Aufbau und der Struktur gegenüber bleibenden Zähnen und müssen demnach anderes therapiert werden.</p>
+         </div>
+        
+      </div>
+     <br>
+     <h3>Prophylaxe</h3>
+     <!-- <p>
+      Ziel: Mundgesundheit ein Leben lang  <br>
+      Die Basis der Zahnheilkunde ist die Prophylaxe. "Professional Care" (zahnmedizinische Prophylaxe in der Praxis) gemeinsam mit "oral self care" (Ihre häusliche Prophylaxe) lassen den alten Spruch Wirklichkeit werden, damit Sie im Alter...
+      <br>
+      Kariesrisiko
+      Zur Prophylaxe gehört die Bestimmung des individuellen Risikos, an Karies zu erkranken.
+      <br>
+      Zeit  <br>
+      Um Sie über die eigene Mundsituation aufzuklären und Sie für die häusliche Pflege Ihres Mundes zu trainieren, nehmen wir uns viel Zeit. Regelmäßige professionelle Mundreinigung durch Fachpersonal hilft, die Bakterienzahl im Mund zu verringern. Zähne mit besonders tiefen Fissuren versiegeln wir um den Besiedlungsraum für Bakterien zu verkleinern. Zur Vorbeugung von Karies und Parodontitis gehört außerdem die regelmäßige Fluoridierung der Zahnoberflächen sowie die Verwendung antibakteriell wirksamer Lacke und Gele.
+      <br>
+      Betreuung  <br>
+      Patienten mit hoher Kariesgefährdung brauchen besondere Aufmerksamkeit und Betreuung, um sie auf dem Weg aus der Hochrisikogruppe zum normalen Risiko zu begleiten. Regelmäßiges Mundhygiene-Training hilft das Kariesrisiko zu senken.
+      <br>
+      Vom ersten Milchzahn an...  <br>
+      Wir betreuen die Kinder möglichst vom ersten Milchzahn an. Dabei hat die Vorhersage des Kariesrisikos besondere Wichtigkeit (Kariesrisikobestimmung).
+      <br>
+      Kinder - Eltern - Zahnputzschule…  <br>
+      Eltern und Kinder lernen gemeinsam die altersgerechte Zahnputztechnik: Sanftes Zähneputzen mit Spass
+     </p> -->
+      <div class="accordion_wrap accordion_1">
+        <div class="accordion_header">
+         Fissurenversiegelung
+        </div>
+        <div class="accordion_body">
+            <h5>Fissuren-Versiegelung</h5>
+            <p>  
+               Die Seitenzähne haben auf den Kauflächen tiefe Einziehungen und Rillen, die schwer zu reinigen sind - und manches Mal gar nicht. In diesen Fissuren können sich die Karies verursachenden Bakterien besonders gut ansiedeln. So entsteht Fissurenkaries. 
+            </p>
+            <br>
+            <h5>Sicherheit und Erfolg</h5>
+            <p>
+               Diese Fissuren versiegeln wir mit speziellen Kunststoffen sobald wir die Zähne sicher trocken legen können. Wir verwenden "glasklaren" Versiegler: So können wir die Fissur weiter beobachten.
+            </p>
+        </div>
+      </div>
+      <div class="accordion_wrap accordion_2">
+        <div class="accordion_header">
+         Karies
+        </div>
+        <div class="accordion_body">
+         <h5>Ziel: Gesunde Zähne</h5>
+         <p>  
+            Die Entstehung von Karies wird durch Bakterien (Plaque, Biofilm), die Dauer der bakteriellen Besiedlung, Ernährung und die Zahnpflege-Gewohnheiten beeinflusst. Ausserdem spielen die Zahnform, die Speichelzusammensetzung sowie die Zusammensetzung der bakteriellen Plaque eine Rolle. 
+         </p>
+         <br>
+         <h5>Risikofaktoren</h5>
+         <p>
+            Um Karies zu verhindern, braucht es eine sorgfältige Diagnostik:
+         </p>
+         <p>
+            Am wichtigsten ist dabei die Suche nach Risikofaktoren, die eine mögliche Entstehung von Karies begünstigen.
+            <br>
+            <ul style="padding-left: 40px;font-size: 12px;">
+               <li>Speichel</li>
+               <li>Bakterien</li>
+               <li>Ernährung</li>
+               <li>Getränke</li>
+               <li>Rauchen / passiv rauchen</li>
+            </ul>
+         </p>
+         <br>
+         <h5>Untersuchung</h5>
+         <p>
+            Sorgfältige Inspektion der Zähne auf offensichtliche und versteckte Karies. Dazu gehört neben der bekannten zahnärztlichen Untersuchung, röntgen und die Inspektion der Zahnzwischenräume mit der „Kaltlichtdiagnosesonde“ .
+         </p>
+         <h5>Beratung</h5>
+         <p>
+            Durch gezielte Prophylaxe Maßnahmen, individuelle Beratung, Zahnpflegetraining und Ernährungssorgfalt kann die Entstehung neuer Karies minimiert werden:
+            <br>
+            Karies ist vermeidbar!
+         </p>
+        </div>
+      </div>
+      <div class="accordion_wrap accordion_3">
+        <div class="accordion_header">
+         Mundreinigung
+        </div>
+        <div class="accordion_body">
+         <h5>Professionelle Mundreinigung</h5>
+         <p>
+            Mund- und Allgemein-Gesundheit gehören zusammen: Engagieren Sie sich von Anfang an! Sie legen sich selbst die Basis für Ihre Mundgesundheit - Wir unterstützen Sie dabei!
+         </p>
+         <p>
+            Unser Erfolg spricht für sich: "Gemeinsam" schaffen wir es, Ihre eigenen Zähne mit Knochen und Zahnfleisch ein Leben lang gesund zu erhalten.
+            Die positiven Nebeneffekte kennen Sie: Ausstrahlung, Sicherheit, frischer Atem, Sprechen, Reden, Kauen…
+         </p>
+         <h5>Genuss und Lebensqualität pur</h5>
+         <h5>Bakterienmenge</h5>
+         <p>
+            Ziel ist die Reduzierung der Bakterienmenge in der Mundhöhle.
+         </p>
+         <h5>Prophylaxe</h5>
+         <p>
+            Ausgebildete Prophylaxe Mitarbeiterinnen entfernen alle bakteriellen Beläge und Verfärbungen von der Zahn- und Wurzeloberfläche und führen eine möglichst vollständige Desinfektion der Mundhöhle durch (full mouth disinfection). Dabei werden auch besonders die Stellen gereinigt, die für Sie nur schwer oder gar nicht erreichbar sind und damit eine beliebte Stelle, bakterielle Beläge zu sammeln.
+         </p>
+         <h5>Mundhygiene</h5>
+         <p>
+            Sie erhalten Hinweise zur effektiver Mundhygiene und eine Einweisung in die geeigneten Hilfsmittel. Wir trainieren mit Ihnen effektive Pflege der Zähne und des Zahnfleisches.
+         </p>
+         <h5>Zeit</h5>
+         <p>
+            Gute Behandlung erfordert Ruhe und Zeit. Eine Behandlungssitzung dauert zwischen 45 und 90 Minuten.
+         </p>
+         <h5>Geld für Gesunderhaltung</h5>
+         <p>
+            Sie kennen das aus vielen Lebensbereichen: Prävention oder Prophylaxe ist eine Privatleistung.
+         </p>
+        </div>
+      </div>
+      <br>
+      <h3>Kinder</h3>
+      <div class="accordion_wrap accordion_4">
+        <div class="accordion_header">
+         1 + 1 = 0 Karies
+        </div>
+        <div class="accordion_body">
+         <h3>Die Behandlung von Kindern liegt uns sehr am Herzen.</h3>
+         <h5>Erste Erfahrung</h5>
+          <p>
+            Die Einstellung der Menschen zum Zahnarzt wird in der Kindheit geprägt. Es ist uns darum wichtig, Ihrem Kind eine gute Erst-Erfahrung zu ermöglichen.
+         </p>
+         <h5>Positive Atmosphäre ist die Basis</h5>
+          <p>
+            Allen Kindern - egal, welche Vorerfahrungen sie haben - helfen wir, Vertrauen, Wärme und Offenheit entstehen zu lassen.
+         </p>
+         <h5>Lächeln</h5>
+          <p>
+            Mit dem Mund können Sie soviel machen: Lachen, Lächeln, Sprechen, die Lippen zusammenpressen, Singen, Pfeifen, Küssen und Essen! Ihr Kind erfährt bei uns, dass es einen Mund und Zähne darin hat und es ganz normal ist, sich mit diesem Bereich zu beschäftigen.
+         </p>
+         <h5>Information</h5>
+          <p>
+            Um uns auf die Bedürfnisse Ihres Kindes vorbereiten zu können, schicken wir Ihnen einen mehrseitigen Untersuchungsbogen zu, den Sie bitte ausgefüllt zu unserer Vorbereitung zurück schicken.
+         </p>
+         <br>
+         <h5>Impfungen</h5>
+          <p>
+            Informationen zur gesetzlichen Impfpflicht finden Sie auf der Seite des <a href="https://www.rki.de/DE/Content/Kommissionen/STIKO/Empfehlungen/Impfempfehlungen_node.html" target="_blank">Robert-Koch-Institutes</a>
+         </p>
+        </div>
+      </div>
+      <div class="accordion_wrap accordion_5">
+        <div class="accordion_header">
+         der erste Besuch
+        </div>
+        <div class="accordion_body">
+         <h3>Der erste Besuch in unserer Praxis</h3>
+         <h5>Entdecken</h5>
+          <p>
+            Das gegenseitige Kennenlernen bestimmt den ersten Untersuchungstermin: Ihr Kind hat Zeit, zusammen mit Ihnen unsere Praxisräume zu entdecken und zu den Mitarbeiterinnen Vertrauen aufzubauen. Erste Informationen über kindgerechte Pflege der Milchzähne, zahngesunde Ernährung und die Planung für eventuell notwendige Behandlungen schließen sich an.
+         </p>
+         <h5>Kennenlernen</h5>
+          <p>
+            Zu Ihrem Vorteil verbinden wir den ersten Besuch mit einer Prophylaxebehandlung: Ihr Kind hat die Gelegenheit, spielerisch einige Behandlungsinstrumente und Geräte kennen zu lernen. So lernen wir uns gegenseitig kennen und können die Mitarbeitsfähigkeit Ihres Kindes einschätzen.
+         </p>
+         <h5>Vorab-Information</h5>
+          <p>
+            Gestalten Sie den Tag in einem "prima Klima". Ihre ruhige positive Grundstimmung überträgt sich auf Ihr Kind. Lassen Sie sich überraschen, wie wir Ihr Kind und Sie in der Praxis aufnehmen und spielerisch an die Erstuntersuchung heranführen.
+         </p>
+        </div>
+      </div>
+      <div class="accordion_wrap accordion_5">
+         <div class="accordion_header">
+            Vorerfahrungen
+         </div>
+         <div class="accordion_body">
+          <h3>Kinder mit "unglücklichen" Vorerfahrungen</h3>
+          <h5>Die Angst vor dem Zahnarzt hat ihre Ursache meist in einer schlechten Erfahrung in der Kindheit</h5>
+            <ul style="padding-left: 40px;font-size: 12px;">
+               <li>Die Behandlung hat zu lange gedauert. Das Kind wurde überfordert.</li>
+               <li> Die Behandlung war schmerzhaft trotz anderer Versprechungen.</li>
+               <li>Die Behandlung war wenig einfühlsam.</li>
+               <li>Die Bedürfnisse des Kindes wurden nicht beachtet.</li>
+            </ul>
+          <h5>Vertrauen lernen</h5>
+          <ul style="padding-left: 40px;font-size: 12px;">
+            <li>Behandlung in kleinen Schritten, die für das Kind zu bewältigen sind</li>
+            <li>Aufbau eines Vertrauensverhältnis zu Ihrem Kind</li>
+            <li>Erlernen von Behandlungsabläufen</li>
+            <li>Eingehen auf die speziellen Bedürfnisse Ihres Kindes</li>
+         </ul>
+          <h5>Neue Positive Erfahrungen machen</h5>
+          <ul style="padding-left: 40px;font-size: 12px;">
+            <li>Wir arbeiten mit altersgerechten verhaltenstherapeutischen Maßnahmen und Techniken aus der Kinderhypnose</li>
+            <li>Für sehr ängstliche Kinder bieten wir die Behandlung unter Lachgas-Sedierung oder Vollnarkose an</li>
+         </ul>
+         </div>
+       </div>
+       <div class="accordion_wrap accordion_5">
+         <div class="accordion_header">
+            Betäubung
+         </div>
+         <div class="accordion_body">
+          <h3>Den Zahn schlafen schicken</h3>
+           <p>
+            "Gut betäubt ist halb behandelt" (Zitat Prof. Daubländer)
+          </p>
+           <p>
+            Milchzähne haben einen Zahnnerv, die Behandlung kann daher weh tun. Schmerzhafte Behandlungen überfordern kleine und große Patienten und sind eine häufige Ursache für Behandlungsverweigerung bei Kindern.
+          </p>
+           <p>
+            Wir sorgen für schmerzfreie Behandlung, indem wir den Zahn gut betäuben.
+          </p>
+          <p>
+            Während der Behandlung von Kindern benutzen wir bewusst eine besondere Sprache. Wir vermeiden Reizworte wie Spritze, Bohrer, Zange, um möglich negative Erinnerungen nicht wieder zu beleben.
+          </p>
+          <p>
+            Wenn Sie bei der Behandlung dabei sein sollten, überlassen Sie die sprachliche Führung des Kindes uns, beobachten Sie still, und stellen die Fragen nach der Behandlung.
+          </p>
+         </div>
+       </div>
+       <div class="accordion_wrap accordion_5">
+         <div class="accordion_header">
+            Lachgas- Behandlung
+         </div>
+         <div class="accordion_body">
+          <h3>Behandlung mit Lachgas-Sedierung</h3>
+           <p>
+            Die Zahnärztliche Behandlung kann durch Sedierung mit Lachgas erleichtert werden.
+          </p>
+          <p>
+            Lachgas hat eine beruhigende Wirkung und verringert das Schmerzempfinden. Dem Patienten kommt die Behandlungszeit viel kürzer vor. Besonders geeignet ist Lachgas bei Patienten mit Angst vor der Behandlung, Angst vor der Betäubung oder Würgereiz.
+          </p>
+          <p>
+            Das Lachgas wird mit Sauerstoff über eine Doppelmaske auf der Nase zugeführt. Es ist eine einfache und sichere Beruhigungsmethode: Der Patient bleibt wach; die Sedierung ist keine Narkose. Eine Betäubung (lokale Anästhesie) ist in den meisten Fällen zusätzlich nötig.
+          </p>
+          <p>
+            Die Lachgas Sedierung eignet sich für Kinder ab 5 Jahren, wenn das Kind kooperativ ist und durch die Nase atmet.
+          </p>
+         </div>
+       </div>
+       <div class="accordion_wrap accordion_5">
+         <div class="accordion_header">
+            Narkose Behandlung
+         </div>
+         <div class="accordion_body">
+          <h3>Behandlung unter Vollnarkose</h3>
+           <p>
+            In besonders schweren Fällen, oder wenn die Belastung des Kindes durch den Behandlungsumfang zu groß ist, bieten wir die Behandlung unter Vollnarkose in unserer Praxis an.
+          </p>
+         </div>
+       </div>
+       <div class="accordion_wrap accordion_5">
+         <div class="accordion_header">
+            Molaren Inzisiven Hypomineralisation
+         </div>
+         <div class="accordion_body">
+          <h3>Molaren Inzisiven Hypomineralisation (MIH)</h3>
+           <p>
+            MIH ist eine Störung der Zahnschmelz-Reifung. Der Schmelz ist schon beim Erscheinen des Zahnes gelblich-bräunlich verfärbt, ist weich, porös und hält dem Kaudruck nicht stand: Die Zähne werden häufig sehr temperaturempfindlich. Die rauchen Oberflächen werden oft kariös. Weil das Zähneputzen weh tut, ist die Zahnpflege oft erschwert.
+          </p>
+          <p>
+            Eine genaue Ursache für MIH ist nicht bekannt. Diskutiert werden häufige Infekte der oberen Luftwege, Kinderkrankheiten bei sehr kleinen Kindern, Magen-Darm-Infekte, Mangelernährung, Umwelteinflüsse.
+            <br>
+            Wichtig ist, dass die Störung früh behandelt wird, damit es gar nicht erst zu der Überempfindlichkeit kommt. Der empfindliche Schmelz wird mit Fluorid-Lack gekräftigt, er kann versiegelt werden, oder Defekte können mit Glasionomerzement vor weiterem Zerbröckeln geschützt werden.
+          </p>
+          <p>
+            Sobald der Zahn weiter in die Mundhöhle gewachsen ist, kann er mit einer Kunststofffüllung versorgt werden. Der Kunststoff (Composit) wird mit speziellen Klebern (Adhäsiv) mit dem Zahn verbunden. Dadurch klingt in der Regel die Überempfindlichkeit ab.
+          </p>
+          <p>
+            Für die häusliche Zahnpflege sind fluoridierte Zahnpasten mit ausreichendem Fluoridgehalt (1400 ppm) wichtig. Ausserdem kann das Kind mehrfach am Tag Calciumpräparate auftragen.
+          </p>
+         </div>
+       </div>
+       <div class="accordion_wrap accordion_5">
+         <div class="accordion_header">
+            EAPD Empfehlungen
+         </div>
+         <div class="accordion_body">
+          <h3>Empfehlungen der Europäische Akademie für Kinderzahnheilkunde / EAPD Guideline</h3>
+          <ol style="padding-left: 40px;font-size: 12px;">
+            <li>Im ersten Lebensjahr (ab dem 6. Lebensmonat) des Kindes zum ersten Mal zum Zahnarzt gehen</li>
+            <li> Täglich zwei mal Zähneputzen mit einer geringen Menge fluoridierter Zahncreme und Zahn-Zwischenraum-Pflege</li>
+            <li>Fluorid-Lack-Touchierung 2 Mal im Jahr (bei erhöhtem Risiko 4 Mal)</li>
+            <li> Eltern putzen Kinderzähne sauber mit der KAI-Plus Technik
+               Empfehlung für Mutter und Vater: Auf die eigene Zahngesundheit achten!
+               Regelmäßige professionelle Mundreinigung</li>
+            <li>Keine Flaschennahrung mit süßen Getränken - besonders während der Nacht</li>
+            <li>Als Durstlöscher nur Wasser trinken aus dem offenen Becher sobald das Baby sitzen kann</li>
+            <br>
+               <a href="https://www.dgkiz.de/files/dgkiz/pdf/Fluoidkonzentration%20Kinderzahnpasten%20Scan%20O&K%202018-4.pdf" target="_blank">Neue Empfehlungen Fluorid Kinderzahnpasten</a>
+         </ol>
+         </div>
+       </div>
+     
+    </div>	
+   
+
+</section>
+
+<!-- services section ends -->
+
+<!-- process section starts  -->
+
+<section class="process " id="process">
+
+   <h1 class="heading">Praxis-konzept</h1>
+
+   <div class="box-container container">
+
+      <div class="box">
+         <img src="images/process-1.png" alt="">
+         <h3>Befund und Diagnose</h3>
+         <p>
+            Wir untersuchen die Zähne, das Zahnfleisch und die Mundhöhle und schauen mittels einer kleinen Spezialtaschenlampe nach ersten Anzeichen von Karies. In bestimmten Fällen fertigen wir Röntgenaufnahmen an, um die Größe der Kariesdefekte und mögliche Entzündungen an den Zahnwurzeln genau einschätzen zu können.   
+            - Heranführen an die Behandlung: Wenn möglich, führen gerne schon beim ersten Besuch eine kleine Zahnpolitur im Mund Ihres Kindes durch. Dabei können wir uns gegenseitig ein wenig  kennenlernen und die Mitarbeitsfähigkeit Ihres Kindes einschätzen. 
+         </p>
+      </div>
+
+      <div class="box">
+         <img src="images/process-2.png" alt="">
+         <h3>Behandlungsplan </h3>
+         <p>
+            Wir arbeiten  schrittweise „vom Kleinen zum Großen“. Dabei setzen wir spezielle Techniken aus der modernen Kinderhypnose nach Milton Erickson ein, die Ihrem Kind die Behandlung erleichtern.
+	- Schmerzausschaltung: Bei größeren kariösen Defekten geben wir eine Betäubung (Zahnschlaftröpfchen), damit die Behandlung schmerzfrei ist. Auch hier helfen Techniken aus der Kinderhypnose, dass Ihr Kind wenig von der Betäubung spürt. 
+	- In besonderen Fällen (Angst, unglückliche Vorerfahrung, Würgereiz o.ä.) bieten wir zusätzlich eine leichte Sedierung mit Lachgas an. 
+	- Behandlung unter Vollnarkose ist bei uns in besonderen Fällen möglich. Unser Anästhesieteam führt die Narkosebehandlung kompetent und sicher durch. 
+
+         </p>
+      </div>
+
+      <div class="box">
+         <img src="images/process-3.png" alt="">
+         <h3>Prophylaxe</h3>
+         <p>Karies ist vermeidbar. Je früher die Prophylaxe beginnt desto besser, am besten schon während der Schwangerschaft:  regelmäßige Prophylaxebehandlungen tragen mit dazu bei, dass sich das Baby im Mutterleib gut entwickelt an. Wenn der erste Milchzahn  Babys erscheint, sollte die Prophylaxe beginnen. Sollte eine aufwändige Kariesbehandlung notwendig gewesen sein, ist die anschließende Betreuung besonders wichtig. </p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- process section ends -->
+
+<!-- Karriere section starts  -->
+<!-- 
+<section class="karriere " id="karriere">
+
+   <h1 class="heading">Stellenangebot </h1>
+
+   <div class="container">
+
+      <div class="content align-items-center">
+            <p>Das ist Ihre Chance</p>
+            <p>
+               Wir suchen für unsere etablierte Praxis mit gesicherter Nachfolge eine <span>ZFA</span> (m/w/d, Vollzeit), die sich in unser Team einbringt und zum bestehenden guten Arbeitsklima beiträgt. Respekt, Kollegialität und Arbeit auf Augenhöhe werden hier groß geschrieben. Sie sind zuverlässig, mögen Kinder, wollen eigenständig und verantwortungsvoll arbeiten und lieber mit gestalten als nur die Vorgaben "von Oben" umzusetzen. Was wir darüber hinaus bieten? Das erzählen wir Ihnen gerne bei einem persönlichen Kennenlernen.
+            </p>
+            <p>
+               Weiter suchen wir eine <span>ZMP</span> (m/w/d, Teilzeit überwiegend nachmittags), die sich in unser Team einbringt und zum bestehenden guten Arbeitsklima beiträgt. Respekt, Kollegialität und Arbeit auf Augenhöhe werden hier groß geschrieben. Sie sind zuverlässig, mögen Kinder verstehen sich als TeampartnerIn und WissenstrainerIn Ihrer Patientinnen und Patienten und wollen eigenständig arbeiten. Was wir darüber hinaus bieten? Das erzählen wir Ihnen gerne bei einem persönlichen Kennenlernen.
+            </p>
+            <p>
+               Wir freuen uns auf Ihre Bewerbung per Mail <span>paxis@basta-zahnarzt.de</span> oder telefonisch <span>+49 1520 8560334</span>
+            </p>
+      </div>
+
+
+   </div>
+
+</section> -->
+
+<!-- reviews section ends -->
+
+<!-- about section starts  -->
+
+<section class="about " id="about">
+
+   <div class="container">
+
+      <div class="row align-items-center">
+
+         <div class="col-md-6 image">
+            <img src="images/about-img.png" class="w-100 mb-5 mb-md-0" alt="">
+         </div>
+
+         <div class="col-md-6 content">
+            <span>Über uns</span>
+            <h3>FRÖHLICHE BEHANDLUNG FÜR GESUNDE ZÄHNE </h3>
+            <p>Gesunde Zähne gesund erhalten und erkrankte Zähne heilen ist unser Ziel. Denn ein gesunder Mund bedeutet Lebensqualität.</p>
+            <p>Unser Team kümmert sich liebevoll und kompetent um Ihr Kind, so dass es entspannt  und mit Freude zum Zahnarzt geht.</p>
+             <a href="#contact" class="link-btn">Rufen Sie uns an</a>
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews " id="reviews">
+
+   <h1 class="heading"> Ansprechpartner </h1>
+
+   <div class="box-container container">
+
+      <div class="box">
+         <img src="images/pic-1.png" alt="">
+         <p>Schwerpunkt Kinder und Jugendzahnheilkunde</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+         <h3>M.Sc. Abderrahmane Basta</h3>
+         <span>Zahnarzt</span>
+      </div>
+
+      <div class="box">
+         <img src="images/pic-2.png" alt="">
+         <p>Schwerpunkt Kinder und Jugendzahnheilkunde</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+         <h3>Sabine Bertzbach</h3>
+         <span>angestellte Zahnärztin</span>
+      </div>
+
+      <div class="box">
+         <img src="images/pic-3.png" alt="">
+         <p>Schwerpunkt Kinder und Jugendzahnheilkunde</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+         <h3>Dr. Aline Millé</h3>
+         <span>angestellte Zahnärztin</span>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- reviews section ends -->
+
+
+<!-- contact section starts  -->
+
+<section class="contact " id="contact">
+
+   <h1 class="heading">Kontakt Informationen</h1>
+   <div class="box-container container">
+     
+      <div class="box">
+         <h3> Termine</h3>
+         <p>
+            <strong>Montag</strong>
+            <br>
+            8:30 - 12:30   und  14:15 - 17:00 
+           </p> 
+           <p>
+            <strong>Dienstag bis Donnerstag</strong>
+            <br>
+            8:30 - 12:30   und    14:15 - 17:00 
+           </p> 
+           <p>
+            <strong>Freitag</strong>
+            <br>
+            8:30 - 12:00 
+           </p> 
+
+         <h3> Telefonisch erreichen Sie uns zu folgenden Zeiten:</h3>
+         <p>
+            <strong>Montag, Dienstag, Donnerstag</strong>
+            <br>
+            8:30 - 11:00   und  14:00 - 16:00 
+           </p> 
+           <p>
+            <strong>Mitwoch und Freitag</strong>
+            <br>
+               8:30 - 11:00 
+           </p> 
+        
+      </div>
+
+      <div class="box">
+         <h3> Kontakt</h3>
+         <p>
+            <strong>Adresse</strong>
+            <br>
+            Ausser der Schleifmühle 34<br>
+            28203 Bremen<br>
+         </p> 
+         <p>
+            <strong>E-Mail</strong>
+            <br>
+            praxis(at)basta-zahnarzt.de
+         </p> 
+         <p>
+            <strong>Telefon</strong>
+            <br>
+            0421 324857
+         </p> 
+         <p>
+            <strong>Fax</strong>
+            <br>
+            0421 327279
+         </p> 
+      </div>
+   </div>
+<br>
+   <div class="box-container container">
+      <img src="images/_dsd4355.jpg"  height="350" class="w-100 mb-5 mb-md-0" alt="">
+      <div class="box">
+         <p> An dem von Ihnen vereinbarten Termin sind wir nur für Sie da. Bitte vereinbaren Sie im Voraus, wann Sie zur Sprechstunde kommen möchten. Unser Ziel ist es, die Termine einzuhalten: mit Ihrer Pünktlichkeit helfen Sie uns dabei.</p>
+         <p>
+            Können Sie einen vereinbarten Termin nicht wahrnehmen, geben Sie uns bitte 24 Stunden vorher Bescheid. Vielen Dank
+         </p> 
+      </div>
+   </div>
+   <br>
+   <div class="box-container container">
+      <img src="images/img_2531.jpg"  height="350" class="w-100 mb-5 mb-md-0" alt="">
+      <div class="box">
+         <p>
+            <strong>Übrigens:</strong>
+            <br>
+            In der Strasse Ausser der Schleifmühle ist das Parken auf dem rechten Seitenstreifen nicht erlaubt. Nutzen Sie unseren Parkplatz oder - besser noch - Fahrrad oder öffentliche Verkehrsmittel.<br>
+           <p>Sie erreichen unsere Praxis mit den Strassenbahnlinien 1, 4, 10 Haltestelle Dobbenweg</p> 
+         </p> 
+      </div>
+   </div>
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container container">
+
+      <div class="box">
+         <i class="fas fa-phone"></i>
+         <h3>Telefon </h3>
+         <p>0421 324857</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-fax"></i>
+         <h3>Fax</h3>
+         <p>0421 327279</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-map-marker-alt"></i>
+         <h3>Adresse</h3>
+         <p>Ausser der Schleifmühle 34, 28203 Bremen</p>
+      </div>
+
+     
+      <div class="box">
+         <i class="fas fa-envelope"></i>
+         <h3>E-Mail</h3>
+         <p>praxis(at)basta-zahnarzt.de</p>
+      </div>
+
+   </div>
+
+   <div class="credit"> &copy; copyright 2022 by <span>M.Sc. Abderrahmane Basta</span> | <a href="./impressum.html" id="btn_impressum" target="_blank">Impressum</a> | <a href="./datenschutz.html" id="btn_datenschutz" target="_blank">Datenschutz</a></div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+<!-- <script src="js/bootstrap.bundle.js"></script> -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

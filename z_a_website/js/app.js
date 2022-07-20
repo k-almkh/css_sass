@@ -43,3 +43,22 @@ accordionBtn.forEach(function (elem) {
      }
     });
 });
+
+ //  Services box Animated Accordion 
+let services_box = document.querySelectorAll('.services .box');
+var i;
+
+for (i = 0; i < services_box.length; i++) {
+   services_box[i].addEventListener("click", function() {
+   this.classList.toggle("content");
+      var panel = this.getElementsByTagName('p');
+      for (let index = 0; index<panel.length; index++) {
+         if (panel[index].style.display === "block") {
+            panel[index].style.display = "none";
+         } else {
+            panel[index].style.display = "block";
+         }
+      }
+
+   });
+}

@@ -74,18 +74,13 @@ var sliderImages = Array.from(document.querySelectorAll('.slider-container img')
 
 // Get Number Of Slides
 var slidesCount = sliderImages.length;
-
 // Set Current Slide
 var currentSlide = 1;
-
-// Slide Number Element
 var slideNumberElement = document.getElementById('silder-count');
 
 // Previous and Next Buttons
 var nextButton = document.getElementById('next');
 var prevButton = document.getElementById('prev');
-
-// Handle Click on Previous and Next Buttons
 nextButton.onclick = nextSlide;
 prevButton.onclick = prevSlide;
 
@@ -129,13 +124,12 @@ for (var i = 0; i < paginationsBullets.length; i++) {
     currentSlide = parseInt(this.getAttribute('data-index'));
 
     theChecker();
-
   }
 
 }
 
 // Change Images by 5 sec
-setInterval(nextSlide, 9000);
+// setInterval(nextSlide, 5000);
 
 // Trigger The Checker Function
 theChecker();
@@ -179,7 +173,6 @@ function theChecker() {
 
   // Set Active Class on Current Pagination Item
   paginationCreatedUl.children[currentSlide - 1].classList.add('active');
-
 }
 
 // Remove All Active Classes From Images and Pagination Bullets
@@ -200,3 +193,24 @@ function removeAllActive() {
   });
 
 }
+
+
+// Galerie
+var all_img = document.querySelectorAll('.img-galerie img');
+var full_img = document.querySelector('.full-img');
+
+
+all_img.forEach(elem => {
+    
+    elem.addEventListener('click', function handleClick(event) {
+        full_img.getElementsByTagName('img')[0].src=event.target.src;
+        full_img.classList.remove('deactive');
+        full_img.classList.add('active');
+    });
+});
+
+var spans = full_img.getElementsByTagName('span');
+console.log(spans);
+spans[0].addEventListener("click", function() {
+    full_img.classList.add("deactive");
+});

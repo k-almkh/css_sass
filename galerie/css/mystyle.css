@@ -125,7 +125,7 @@ html {
    background-color: rgba(0, 0, 0, .6);
    color: var(--main-color-white);
    padding: 5px 10px;
-   font-size: 5rem;
+   font-size: 20px;
    z-index: 2;
    border-radius: 6px;
  }
@@ -142,7 +142,7 @@ html {
    .slider-control .next {
    background-color: var(--main-color);
    color: var(--main-color-white);
-   font-size: 10rem;
+   font-size: 20px;
    text-align: center;
    cursor: pointer;
    border-radius: 4px;
@@ -183,8 +183,8 @@ html {
    line-height: 28px;
    cursor: pointer;
    border-radius: 50%;
-   width: 5rem;
-   height: 5rem;
+   width: 13px;
+   height: 13px;
    padding: 0;
  }
    .slider-control .indicators ul li.active {
